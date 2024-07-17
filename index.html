@@ -19,9 +19,9 @@
                 <div class="item">
                     <img :src="slides[active_image].image" :alt="slides.title" />
                     <div class="text">
-                        <h3>{{ slides.title }}</h3>
+                        <h3>{{ slides[active_image].title }}</h3>
                         <p>
-                           {{ slides.text }}
+                            {{ slides[active_image].text }}
                         </p>
                     </div>
                 </div>
