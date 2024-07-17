@@ -11,8 +11,9 @@ Partendo dal markup della versione svolta in js plain, rifare lo slider ma quest
 - il riciclo spesso va a braccetto con le funzioni! Sapendole sfruttare bene, l'esercizio si riduce a poche righe
 
 /*SOLUZIONE*/
-- prendo l'array di oggetti fornitomi e lo inserisco ad un vue
-- vado sul file html e nel tag div .titem sostituisco il src del tag img e lo collego con la chiave image
+- attivo il vue
+- prendo l'array di oggetti fornitomi e lo inserisco all'interno di data del vue
+- vado sul file html e nel tag div .title sostituisco il src del tag img e lo collego con la chiave image
 - faccio la stessa cosa con alt
 - collego il tag h3 alla chiave title di slides
 - collego il tag p con alla chiave text di slides
